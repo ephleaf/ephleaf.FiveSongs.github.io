@@ -1,0 +1,88 @@
+
+/*Body work*/
+body{
+    
+}
+
+
+/* This centers a containter of divs */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 100px;
+    
+    
+}
+.horizontal{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+/*Text*/
+.descriptionText{
+    max-width: 150px;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loudTitle{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.smallTitle{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.largeTitle{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paddingMin{
+    padding: 100px;
+}
+/*Buttons*/
+.button1{
+
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    :hover {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+}
+/*Images*/
+.img1{
+    padding: 25px;
+}
