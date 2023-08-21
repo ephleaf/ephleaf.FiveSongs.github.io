@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 .container2{
     display: flex;
@@ -34,29 +35,58 @@ body{
     font-size: 14px;
     overflow-wrap: break-word;
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
 }
 
 .loudTitle{
     font-size: 23px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    
     
 }
 .smallTitle{
     font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
 }
 .largeTitle{
     font-size: 56px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
 }
 .text{
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
 }
+/*Other*/
 .paddingMin{
     padding: 100px;
+}
+.horizontal.scrollMenu{
+   
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+
+    margin: 0 auto 0 auto;
+    height: fit-content;
+    width: 90vw;
+   
+    
+  
+    border: solid #F3E6FF 1px;
+ 
+    
+    
+    
+}
+.horizontal.horizontal.scrollMenu::-webkit-scrollbar{
+    display: none; /*hides the scroll bar */
 }
 /*Buttons*/
 .button1{
